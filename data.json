@@ -1,5 +1,8 @@
 {
-  "favorite-products": [{ "productId": 0 }, { "productId": 1 }],
+  "favorite-products": [
+    { "productId": 0 }, 
+    { "productId": 1 }
+  ],
   "cart": [
     {
       "productId": 0,
