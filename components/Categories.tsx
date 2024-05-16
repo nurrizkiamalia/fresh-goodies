@@ -1,4 +1,3 @@
-// Categories.tsx
 import React from "react";
 
 interface CategoriesProps {
@@ -12,7 +11,7 @@ const Categories: React.FC<CategoriesProps> = ({ categories, selectedCategory, o
 
     return (
         <div>
-            <ul className="categories flex w-full overflow-x-scroll gap-10">
+            <ul className="categories whitespace-nowrap flex w-full overflow-x-scroll gap-10">
                 <li 
                     className={`${selectedCategory === "All" ? "border-b-2" : ""} ${liStyle}`} 
                     onClick={() => onSelectCategory("All")}

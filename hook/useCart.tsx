@@ -82,7 +82,7 @@ export const CartProvider: React.FC<{ children: ReactNode }> = ({ children }) =>
             if (currentItem.quantity === 0) return prevCart;
             const newWeight = currentItem.weight - 100;
             const additionalWeight = newWeight - defaultWeight;
-            const newPrice = (defaultWeight * price) + ((additionalWeight / 100) * price);
+            const newPrice = ( defaultWeight * price) + ((additionalWeight / 100) * price);
 
             if (newWeight <= defaultWeight) {
                 deleteCartItem(id);

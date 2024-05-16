@@ -1,4 +1,3 @@
-// ProductBox.tsx
 "use client";
 
 import Image from "next/image";
@@ -8,8 +7,13 @@ import { FaPlus, FaMinus } from "react-icons/fa";
 import { useState } from "react";
 import { useCart } from "@/hook/useCart";
 import Categories from "../Categories";
+import CartFloatBtn from "../Cart/CartFloatBtn";
 
-const ProductBox: React.FC = () => {
+interface ProductBoxProps {
+    openCatalog: (productId: number) => void;
+}
+
+const ProductBox: React.FC<ProductBoxProps> = ({ openCatalog }) => {
     const { productBox, category } = useProduct();
     const { addToCart, subtractFromCart, cart } = useCart();
     const [isClicked, setIsClicked] = useState<{ [key: string]: boolean }>({});
@@ -37,14 +41,15 @@ const ProductBox: React.FC = () => {
 
     return (
         <>
+        <div>
+            <Categories 
+                categories={category} 
+                selectedCategory={selectedCategory} 
+                onSelectCategory={setSelectedCategory} 
+            />
+        </div>
             
-                
-                <Categories 
-                    categories={category} 
-                    selectedCategory={selectedCategory} 
-                    onSelectCategory={setSelectedCategory} 
-                />
-            <div className="grid grid-cols-2 gap-5 lg:grid-cols-3 xl:grid-cols-4 ">
+            <div className=" grid grid-cols-2 gap-5 md:grid-cols-3 xl:grid-cols-4 ">
                 {filteredProducts.map((item) => {
                     const defaultWeight = item.weight || 0;
                     const price = item.price || 0;
@@ -53,7 +58,7 @@ const ProductBox: React.FC = () => {
                     const totalPrice = (defaultWeight * price) + ((additionalWeight / 100) * price);
 
                     return (
-                        <div key={item.id} className="bg-smokeGray p-[11px] rounded-3xl">
+                        <div key={item.id} className="bg-smokeGray p-[11px] rounded-3xl w-fit">
                             <Image
                                 src={item.imageUrl === undefined ? garlic : item.imageUrl}
                                 width={100}
@@ -62,7 +67,7 @@ const ProductBox: React.FC = () => {
                                 className="mix-blend-multiply bg-transparent"
                             />
                             <p className="text-pxxl font-bold">{totalPrice.toFixed(2)}</p>
-                            <p>{item.name}</p>
+                            <p onClick={() => openCatalog(item.id)} className="cursor-pointer">{item.name}</p>
                             <div className="flex justify-between items-center">
                                 <button
                                     onClick={() => handleSubtractWeight(item.id.toString(), defaultWeight, price)}
@@ -77,7 +82,7 @@ const ProductBox: React.FC = () => {
                                     name="weight"
                                     id="weight"
                                     placeholder={convertWeight(defaultWeight)}
-                                    className="bg-smokeGray w-[100%]"
+                                    className="bg-smokeGray w-[70%]"
                                     value={convertWeight(weightVal)}
                                     readOnly
                                 />
@@ -93,6 +98,7 @@ const ProductBox: React.FC = () => {
                         </div>
                     );
                 })}
+                <CartFloatBtn className="xl:hidden fixed bottom-0 w-[90%] m-0" />
             </div>
         </>
     );
