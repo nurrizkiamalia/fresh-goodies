@@ -1,13 +1,14 @@
 {
   "favorite-products": [
-    { "productId": 0 }, 
-    { "productId": 1 }
+    {
+      "productId": 0
+    },
+    {
+      "productId": 1
+    }
   ],
   "cart": [
-    {
-      "productId": 0,
-      "quantity": 1000
-    }
+    
   ],
   "products": [
     {

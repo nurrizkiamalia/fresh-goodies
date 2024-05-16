@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Inter, DM_Sans } from "next/font/google";
 import "./globals.css";
+import Layout from "./components/Layout";
 
 const inter = Inter({ 
   subsets: ["latin"],
@@ -25,10 +26,12 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
+    <Layout>
     <html lang="en">
       <body className={`${dmSans.variable} ${inter.variable} font-dmSans`}>
         {children}
       </body>
     </html>
+    </Layout>
   );
 }

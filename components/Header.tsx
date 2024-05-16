@@ -10,7 +10,6 @@ const Header: React.FC = () => {
                     <button><FaSearch /></button>
                 </div>
                 <h1 className="text-pxxxl font-bold">Vegetables</h1>
-                <Categories />
             </div>
         </>
     )
