@@ -2,7 +2,6 @@
 
 import { useState } from "react";
 import CartDetail from "../Cart/CartDetail";
-import CartFloatBtn from "../Cart/CartFloatBtn";
 import Header from "../Header";
 import ProductBox from "./ProductBox";
 import Catalog from "@/app/components/Catalog";

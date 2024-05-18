@@ -3,5 +3,5 @@
 @tailwind utilities;
 
 .categories{
-    scrollbar-width: none;
+    scrollbar-width: thin;
 }

@@ -10,5 +10,6 @@ export interface ShoppingCart {
   addItem(product: Product, quantity: number): void;
   removeItem(productId: number): void;
   updateItemQuantity(productId: number, quantity: number): void;
+  subtractItemQuantity(productId: number): void; // Add this line
   getTotalPrice(): number;
 }

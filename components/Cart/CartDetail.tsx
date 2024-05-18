@@ -5,7 +5,7 @@ import beetles from "@/public/products/beetles.png"
 const CartDetail: React.FC = () => {
     return(
         <>
-            <div className="xl:w-[30%] xl:flex xl:fixed xl:right-0  hidden p-5 border-[1px] gap-5 border-gray-300 rounded-xl flex-col items-stretch xl:h-[80vh] overflow-y-scroll ">
+            <div className="lg:w-[30%] lg:flex lg:fixed lg:right-0  hidden p-5 border-[1px] gap-5 border-gray-300 rounded-xl flex-col items-stretch lg:h-[80vh] overflow-y-scroll ">
                 <button className="xl:hidden"> <FaWindowClose /> </button>
                 <h2 className="text-pxxxl font-bold">Cart</h2>
                 <div className="flex gap-5 items-center xl:flex-col xl:items-stretch">

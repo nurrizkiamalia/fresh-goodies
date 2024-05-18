@@ -1,538 +1,18 @@
 {
   "favorite-products": [
     {
-      "productId": 0
+      "productId": {
+        "id": 1
+      }
     },
     {
-      "productId": 1
+      "productId": {
+        "id": 2
+      }
     }
   ],
   "cart": [
-    {
-      "id": "4d4d",
-      "productId": "0",
-      "quantity": 1
-    },
-    {
-      "id": "1131",
-      "productId": "0",
-      "quantity": 1
-    },
-    {
-      "id": "4980",
-      "productId": "3",
-      "quantity": 1
-    },
-    {
-      "id": "e7f5",
-      "productId": "3",
-      "quantity": 1
-    },
-    {
-      "id": "ec0b",
-      "productId": "12",
-      "quantity": 1
-    },
-    {
-      "id": "8b51",
-      "productId": "12",
-      "quantity": 1
-    },
-    {
-      "id": "3224",
-      "productId": "7",
-      "quantity": 1
-    },
-    {
-      "id": "b3e6",
-      "productId": "7",
-      "quantity": 1
-    },
-    {
-      "id": "ce5a",
-      "productId": "7",
-      "quantity": 2
-    },
-    {
-      "id": "a46f",
-      "productId": "7",
-      "quantity": 2
-    },
-    {
-      "id": "a73f",
-      "productId": "12",
-      "quantity": 1
-    },
-    {
-      "id": "7c4f",
-      "productId": "12",
-      "quantity": 1
-    },
-    {
-      "id": "ce24",
-      "productId": "12",
-      "quantity": 3
-    },
-    {
-      "id": "e859",
-      "productId": "12",
-      "quantity": 3
-    },
-    {
-      "id": "f987",
-      "productId": "12",
-      "quantity": 4
-    },
-    {
-      "id": "17f7",
-      "productId": "12",
-      "quantity": 4
-    },
-    {
-      "id": "07a9",
-      "productId": "12",
-      "quantity": 5
-    },
-    {
-      "id": "77b1",
-      "productId": "12",
-      "quantity": 5
-    },
-    {
-      "id": "a761",
-      "productId": "12",
-      "quantity": 6
-    },
-    {
-      "id": "acf5",
-      "productId": "12",
-      "quantity": 6
-    },
-    {
-      "id": "9072",
-      "productId": "12",
-      "quantity": 7
-    },
-    {
-      "id": "f7e5",
-      "productId": "12",
-      "quantity": 7
-    },
-    {
-      "id": "d020",
-      "productId": "12",
-      "quantity": 8
-    },
-    {
-      "id": "f3a5",
-      "productId": "12",
-      "quantity": 8
-    },
-    {
-      "id": "6c07",
-      "productId": "12",
-      "quantity": 9
-    },
-    {
-      "id": "c7f3",
-      "productId": "12",
-      "quantity": 9
-    },
-    {
-      "id": "d1ed",
-      "productId": "12",
-      "quantity": 8
-    },
-    {
-      "id": "ec4c",
-      "productId": "12",
-      "quantity": 8
-    },
-    {
-      "id": "186c",
-      "productId": "12",
-      "quantity": 7
-    },
-    {
-      "id": "f3f4",
-      "productId": "12",
-      "quantity": 7
-    },
-    {
-      "id": "dcbf",
-      "productId": "12",
-      "quantity": 6
-    },
-    {
-      "id": "03c1",
-      "productId": "12",
-      "quantity": 6
-    },
-    {
-      "id": "e591",
-      "productId": "12",
-      "quantity": 5
-    },
-    {
-      "id": "8a83",
-      "productId": "12",
-      "quantity": 5
-    },
-    {
-      "id": "184b",
-      "productId": "12",
-      "quantity": 4
-    },
-    {
-      "id": "1e81",
-      "productId": "12",
-      "quantity": 4
-    },
-    {
-      "id": "9ce6",
-      "productId": "12",
-      "quantity": 3
-    },
-    {
-      "id": "318b",
-      "productId": "12",
-      "quantity": 3
-    },
-    {
-      "id": "4159",
-      "productId": "12",
-      "quantity": 2
-    },
-    {
-      "id": "449b",
-      "productId": "12",
-      "quantity": 2
-    },
-    {
-      "id": "52ff",
-      "productId": "12",
-      "quantity": 1
-    },
-    {
-      "id": "83bd",
-      "productId": "12",
-      "quantity": 1
-    },
-    {
-      "id": "0caf",
-      "productId": "7",
-      "quantity": 1
-    },
-    {
-      "id": "694f",
-      "productId": "7",
-      "quantity": 1
-    },
-    {
-      "id": "4897",
-      "productId": "14",
-      "quantity": 1
-    },
-    {
-      "id": "a15a",
-      "productId": "14",
-      "quantity": 1
-    },
-    {
-      "id": "b59e",
-      "productId": "14",
-      "quantity": 2
-    },
-    {
-      "id": "d40f",
-      "productId": "14",
-      "quantity": 2
-    },
-    {
-      "id": "57c1",
-      "productId": "14",
-      "quantity": 3
-    },
-    {
-      "id": "e63f",
-      "productId": "14",
-      "quantity": 3
-    },
-    {
-      "id": "a0b5",
-      "productId": "14",
-      "quantity": 4
-    },
-    {
-      "id": "3d84",
-      "productId": "14",
-      "quantity": 4
-    },
-    {
-      "id": "3cd0",
-      "productId": "14",
-      "quantity": 5
-    },
-    {
-      "id": "2407",
-      "productId": "14",
-      "quantity": 6
-    },
-    {
-      "id": "464e",
-      "productId": "14",
-      "quantity": 6
-    },
-    {
-      "id": "0d58",
-      "productId": "14",
-      "quantity": 7
-    },
-    {
-      "id": "789e",
-      "productId": "14",
-      "quantity": 7
-    },
-    {
-      "id": "b201",
-      "productId": "14",
-      "quantity": 8
-    },
-    {
-      "id": "46de",
-      "productId": "14",
-      "quantity": 8
-    },
-    {
-      "id": "6de3",
-      "productId": "14",
-      "quantity": 9
-    },
-    {
-      "id": "d3cf",
-      "productId": "14",
-      "quantity": 9
-    },
-    {
-      "id": "1ebe",
-      "productId": "14",
-      "quantity": 10
-    },
-    {
-      "id": "5aaf",
-      "productId": "14",
-      "quantity": 10
-    },
-    {
-      "id": "c639",
-      "productId": "14",
-      "quantity": 13
-    },
-    {
-      "id": "c9a3",
-      "productId": "14",
-      "quantity": 11
-    },
-    {
-      "id": "225c",
-      "productId": "14",
-      "quantity": 13
-    },
-    {
-      "id": "3d1d",
-      "productId": "14",
-      "quantity": 11
-    },
-    {
-      "id": "c7ed",
-      "productId": "14",
-      "quantity": 12
-    },
-    {
-      "id": "16c9",
-      "productId": "14",
-      "quantity": 12
-    },
-    {
-      "id": "b8a7",
-      "productId": "14",
-      "quantity": 14
-    },
-    {
-      "id": "b519",
-      "productId": "14",
-      "quantity": 14
-    },
-    {
-      "id": "0cbc",
-      "productId": "14",
-      "quantity": 15
-    },
-    {
-      "id": "caf3",
-      "productId": "14",
-      "quantity": 15
-    },
-    {
-      "id": "0216",
-      "productId": "14",
-      "quantity": 16
-    },
-    {
-      "id": "e378",
-      "productId": "14",
-      "quantity": 16
-    },
-    {
-      "id": "2299",
-      "productId": "14",
-      "quantity": 15
-    },
-    {
-      "id": "2e3e",
-      "productId": "14",
-      "quantity": 15
-    },
-    {
-      "id": "909b",
-      "productId": "14",
-      "quantity": 14
-    },
-    {
-      "id": "dbd8",
-      "productId": "14",
-      "quantity": 14
-    },
-    {
-      "id": "c4e0",
-      "productId": "14",
-      "quantity": 13
-    },
-    {
-      "id": "586d",
-      "productId": "14",
-      "quantity": 13
-    },
-    {
-      "id": "1ee4",
-      "productId": "14",
-      "quantity": 12
-    },
-    {
-      "id": "b83b",
-      "productId": "14",
-      "quantity": 12
-    },
-    {
-      "id": "20a2",
-      "productId": "14",
-      "quantity": 11
-    },
-    {
-      "id": "e6a7",
-      "productId": "14",
-      "quantity": 11
-    },
-    {
-      "id": "62ae",
-      "productId": "14",
-      "quantity": 10
-    },
-    {
-      "id": "4ab6",
-      "productId": "14",
-      "quantity": 10
-    },
-    {
-      "id": "a989",
-      "productId": "14",
-      "quantity": 9
-    },
-    {
-      "id": "295c",
-      "productId": "14",
-      "quantity": 9
-    },
-    {
-      "id": "a5bd",
-      "productId": "14",
-      "quantity": 8
-    },
-    {
-      "id": "d3e3",
-      "productId": "14",
-      "quantity": 8
-    },
-    {
-      "id": "e28b",
-      "productId": "14",
-      "quantity": 7
-    },
-    {
-      "id": "ab26",
-      "productId": "14",
-      "quantity": 7
-    },
-    {
-      "id": "a638",
-      "productId": "14",
-      "quantity": 6
-    },
-    {
-      "id": "6280",
-      "productId": "14",
-      "quantity": 6
-    },
-    {
-      "id": "1bc3",
-      "productId": "14",
-      "quantity": 5
-    },
-    {
-      "id": "0d4f",
-      "productId": "14",
-      "quantity": 5
-    },
-    {
-      "id": "f0be",
-      "productId": "14",
-      "quantity": 4
-    },
-    {
-      "id": "1b59",
-      "productId": "14",
-      "quantity": 4
-    },
-    {
-      "id": "87b8",
-      "productId": "14",
-      "quantity": 3
-    },
-    {
-      "id": "20f4",
-      "productId": "14",
-      "quantity": 3
-    },
-    {
-      "id": "3c71",
-      "productId": "14",
-      "quantity": 2
-    },
-    {
-      "id": "ba35",
-      "productId": "14",
-      "quantity": 2
-    },
-    {
-      "id": "5de6",
-      "productId": "14",
-      "quantity": 1
-    },
-    {
-      "id": "695f",
-      "productId": "14",
-      "quantity": 1
-    }
+    
   ],
   "products": [
     {
@@ -550,7 +30,7 @@
         "increment": 100,
         "carbs": 2
       },
-      "id": 0
+      "id": "0"
     },
     {
       "price": 0.0033,
@@ -567,7 +47,7 @@
         "increment": 100,
         "carbs": 3.6
       },
-      "id": 1
+      "id": "1"
     },
     {
       "price": 0.0027,
@@ -584,7 +64,7 @@
         "increment": 100,
         "carbs": 9.3
       },
-      "id": 2
+      "id": "2"
     },
     {
       "price": 0.004,
@@ -601,7 +81,7 @@
         "increment": 100,
         "carbs": 9.3
       },
-      "id": 3
+      "id": "3"
     },
     {
       "price": 0.0028,
@@ -618,7 +98,7 @@
         "increment": 100,
         "carbs": 17
       },
-      "id": 4
+      "id": "4"
     },
     {
       "price": 0.0032,
@@ -635,7 +115,7 @@
         "increment": 100,
         "carbs": 29.9
       },
-      "id": 5
+      "id": "5"
     },
     {
       "price": 0.0045,
@@ -652,7 +132,7 @@
         "increment": 100,
         "carbs": 9
       },
-      "id": 6
+      "id": "6"
     },
     {
       "price": 0.005,
@@ -669,7 +149,7 @@
         "increment": 100,
         "carbs": 2
       },
-      "id": 7
+      "id": "7"
     },
     {
       "price": 0.006,
@@ -686,7 +166,7 @@
         "increment": 100,
         "carbs": 82.4
       },
-      "id": 8
+      "id": "8"
     },
     {
       "price": 0.0025,
@@ -703,7 +183,7 @@
         "increment": 100,
         "carbs": 9.6
       },
-      "id": 9
+      "id": "9"
     },
     {
       "price": 0.0038,
@@ -720,7 +200,7 @@
         "increment": 100,
         "carbs": 10
       },
-      "id": 10
+      "id": "10"
     },
     {
       "price": 0.007,
@@ -737,7 +217,7 @@
         "increment": 100,
         "carbs": 67
       },
-      "id": 11
+      "id": "11"
     },
     {
       "price": 0.0085,
@@ -754,7 +234,7 @@
         "increment": 100,
         "carbs": 0
       },
-      "id": 12
+      "id": "12"
     },
     {
       "price": 0.0028,
@@ -771,7 +251,7 @@
         "increment": 100,
         "carbs": 18
       },
-      "id": 13
+      "id": "13"
     },
     {
       "price": 0.004,
@@ -788,7 +268,7 @@
         "increment": 100,
         "carbs": 17
       },
-      "id": 14
+      "id": "14"
     },
     {
       "price": 0.0055,
@@ -805,7 +285,7 @@
         "increment": 100,
         "carbs": 19
       },
-      "id": 15
+      "id": "15"
     },
     {
       "price": 0.0048,
@@ -822,7 +302,7 @@
         "increment": 100,
         "carbs": 3.4
       },
-      "id": 16
+      "id": "16"
     },
     {
       "price": 0.0065,
@@ -839,7 +319,7 @@
         "increment": 100,
         "carbs": 40
       },
-      "id": 17
+      "id": "17"
     },
     {
       "price": 0.0035,
@@ -856,7 +336,7 @@
         "increment": 100,
         "carbs": 20.1
       },
-      "id": 18
+      "id": "18"
     },
     {
       "price": 0.0022,
@@ -873,7 +353,7 @@
         "increment": 100,
         "carbs": 8.8
       },
-      "id": 19
+      "id": "19"
     },
     {
       "price": 0.0075,
@@ -890,7 +370,7 @@
         "increment": 100,
         "carbs": 76
       },
-      "id": 20
+      "id": "20"
     },
     {
       "price": 0.0042,
@@ -907,7 +387,7 @@
         "increment": 100,
         "carbs": 2.4
       },
-      "id": 21
+      "id": "21"
     },
     {
       "price": 0.0058,
@@ -924,7 +404,7 @@
         "increment": 100,
         "carbs": 21
       },
-      "id": 22
+      "id": "22"
     },
     {
       "price": 0.003,
@@ -941,7 +421,7 @@
         "increment": 100,
         "carbs": 27.9
       },
-      "id": 23
+      "id": "23"
     },
     {
       "price": 0.0026,
@@ -958,7 +438,7 @@
         "increment": 100,
         "carbs": 3.9
       },
-      "id": 24
+      "id": "24"
     },
     {
       "price": 0.0033,
@@ -975,7 +455,7 @@
         "increment": 100,
         "carbs": 3.6
       },
-      "id": 25
+      "id": "25"
     },
     {
       "price": 0.0029,
@@ -992,7 +472,7 @@
         "increment": 100,
         "carbs": 2.9
       },
-      "id": 26
+      "id": "26"
     },
     {
       "price": 0.0041,
@@ -1009,7 +489,7 @@
         "increment": 100,
         "carbs": 6
       },
-      "id": 27
+      "id": "27"
     },
     {
       "price": 0.0037,
@@ -1026,7 +506,7 @@
         "increment": 100,
         "carbs": 3.1
       },
-      "id": 28
+      "id": "28"
     },
     {
       "price": 0.0034,
@@ -1043,7 +523,7 @@
         "increment": 100,
         "carbs": 3.6
       },
-      "id": 29
+      "id": "29"
     },
     {
       "price": 0.003,
@@ -1060,7 +540,7 @@
         "increment": 100,
         "carbs": 6.6
       },
-      "id": 30
+      "id": "30"
     },
     {
       "price": 0.004,
@@ -1077,7 +557,7 @@
         "increment": 100,
         "carbs": 8.8
       },
-      "id": 31
+      "id": "31"
     },
     {
       "price": 0.0055,
@@ -1094,7 +574,7 @@
         "increment": 100,
         "carbs": 3.9
       },
-      "id": 32
+      "id": "32"
     },
     {
       "price": 0.0036,
@@ -1111,7 +591,7 @@
         "increment": 100,
         "carbs": 7.1
       },
-      "id": 33
+      "id": "33"
     }
   ]
 }

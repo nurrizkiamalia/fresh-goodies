@@ -1,9 +1,5 @@
-// pages/page.tsx
-import Header from "@/components/Header";
-import ProductList from "@/components/Products/ProductList";
-import CartFloatBtn from "@/components/Cart/CartFloatBtn";
+import ProductList from "@/components/Products/ProductList"
 import { CartProvider } from "@/hook/useCart";
-import Catalog from "./components/Catalog";
 
 export default function Home() {
   return (
