@@ -14,6 +14,7 @@ const ProductList: React.FC = () => {
         setSelectedProductId(productId);
         setShowCatalog(true);
     };
+    
 
     const closeCatalog = () => {
         setShowCatalog(false);
